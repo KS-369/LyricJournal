@@ -9,6 +9,7 @@ package com.mycompany.lyricjournal.Controller;
  * @author Kalli-Ann
  */
 
+
 import com.mycompany.lyricjournal.Model.*;
 
 import com.google.gson.*; // import gson
@@ -21,7 +22,8 @@ public class UserDataController {
     private static final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
     public static void saveUser(User user) {
-        try (FileWriter writer = new FileWriter(user.getUsername() + "_lyrics.json")) {
+        String filename = user.getUsername() + "_lyrics.json";
+        try (FileWriter writer = new FileWriter(filename)) {
             gson.toJson(user.getEntries(), writer);
         } catch (IOException e) {
             e.printStackTrace();
@@ -29,13 +31,16 @@ public class UserDataController {
     }
 
     public static void loadUserEntries(User user) {
-        File file = new File(user.getUsername() + "_lyrics.json");
+        String filename = user.getUsername() + "_lyrics.json";
+        File file = new File(filename);
         if (!file.exists()) return;
 
         try (FileReader reader = new FileReader(file)) {
             Type entryListType = new TypeToken<ArrayList<LyricEntry>>() {}.getType();
             ArrayList<LyricEntry> entries = gson.fromJson(reader, entryListType);
             if (entries != null) {
+                // Clear existing entries first to prevent duplicates!
+                user.getEntries().clear();
                 for (LyricEntry entry : entries) {
                     user.addEntry(entry);
                 }
