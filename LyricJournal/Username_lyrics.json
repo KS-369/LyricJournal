@@ -2,21 +2,21 @@
   {
     "songTitle": "Relative Fiction",
     "artist": "Julien Baker",
-    "lyricText": " I’ve got no business praying and I’m finished being good, now I can finally be okay and not the way I thought I should.",
-    "userNote": "Note",
+    "lyricText": "I\u0027ve got no business praying\nI\u0027m finished being good\nNow I can finally be okay\nAnd not the way I thought I should, mm",
+    "userNote": "Notes123",
     "dateAdded": "2025-06-04"
   },
   {
     "songTitle": "The Moon Will Sing",
     "artist": "The Crane Wives",
-    "lyricText": "All those empty rooms, we could have been anywhere, anywhere else. Instead, I made a bed with apathy",
+    "lyricText": "All those empty rooms\nWe could have been anywhere, anywhere else\nInstead, I made a bed with apathy",
     "userNote": "Note",
     "dateAdded": "2025-06-04"
   },
   {
     "songTitle": "Bloodshot",
     "artist": "Julien Baker",
-    "lyricText": "Isn\u0027t like I do this on purpose, I just forget the second I learned it",
+    "lyricText": "Isn\u0027t like I did it on purpose\nI just forget the second I learned it",
     "userNote": "Note",
     "dateAdded": "2025-06-04"
   },
@@ -30,22 +30,36 @@
   {
     "songTitle": "Stick Around",
     "artist": "Medium Build",
-    "lyricText": "And, baby, it came true, all the little things that I wished for, that I never said out loud, out of my mouth",
+    "lyricText": "And, baby, it came true\nAll the little things that I wished for\nThat I never said out loud\nOut of my mouth",
     "userNote": "Note",
     "dateAdded": "2025-06-04"
   },
   {
-    "songTitle": "Take Me to Church",
-    "artist": "Hozier",
-    "lyricText": "The only heaven I\u0027ll be sent to is when I\u0027m alone with you",
-    "userNote": "Note",
-    "dateAdded": "2025-06-04"
+    "songTitle": "Ziptie",
+    "artist": "Julien Baker",
+    "lyricText": "Trying to find a reason to fight\nBut someone\u0027s got my head in a ziptie",
+    "userNote": "",
+    "dateAdded": "2025-06-10"
   },
   {
-    "songTitle": "Most Wanted Man",
-    "artist": "Lucy Dacus",
-    "lyricText": "Will you let me spend a lifetime trying? And if you do, I\u0027ll have time to write the book on you",
-    "userNote": "Note",
-    "dateAdded": "2025-06-04"
+    "songTitle": "The Gold",
+    "artist": "Manchester Orchestra",
+    "lyricText": "You don\u0027t open your eyes for a while\nYou just breathe that moment down.",
+    "userNote": "",
+    "dateAdded": "2025-06-10"
+  },
+  {
+    "songTitle": "Incomprehensible",
+    "artist": "Big Thief",
+    "lyricText": "Incomprehensible, let me be",
+    "userNote": "",
+    "dateAdded": "2025-06-10"
+  },
+  {
+    "songTitle": "The Baton",
+    "artist": "Katie Gavin",
+    "lyricText": "And on that very same day\nShe\u0027d join a kind of relay\nI\u0027d pass her the baton and\nI\u0027d say you better run\n\n\u0027Cause this thing has been going\nFor many generations\nBut there is so much healing\nThat still needs to be done",
+    "userNote": "",
+    "dateAdded": "2025-06-10"
   }
 ]
