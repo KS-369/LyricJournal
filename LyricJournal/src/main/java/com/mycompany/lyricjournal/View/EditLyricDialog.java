@@ -135,7 +135,7 @@ public class EditLyricDialog extends JDialog {
         // SwingUtilities.invokeLater()
 
         // Delays the focus request until after the dialog is fully constructed
-        //Ensures the GUI is completely ready before trying to focus
+        // Ensures the GUI is completely ready before trying to focus
         
         SwingUtilities.invokeLater(() -> titleField.requestFocus());
     }
